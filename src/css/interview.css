@@ -1,0 +1,78 @@
+.container-general{
+    /* background-color: blue; */
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 1em 1em;
+}
+
+.container-interviews{
+    background-color: rgb(241, 241, 241);
+    width: 80%;
+    padding: 1em 1em;
+    border-radius: 7px;
+    margin-right: 10px;
+    height: 30em;
+}
+.container-new-interview{
+    background-color: rgb(241, 241, 241);
+    border-radius: 7px;
+    text-align: center;
+    height: 10em;
+}
+
+.container-lista-interviews{
+    /* background-color: brown; */
+    display: flex;
+    background-color: rgb(241, 241, 241);
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.container-lista-interviews p{
+    justify-content: center;
+}
+
+
+.container-principal{
+    width: 80%;
+    margin: 1em auto;
+    /* background-color: rgb(216, 216, 216); */
+}
+
+.container-boxes{
+    width: 30%;
+    display: flex;
+    background-color: rgb(241, 241, 241);
+    margin: auto;
+    justify-content: space-between;
+    padding: 1em 1em;
+    border-radius: 7px;
+}
+
+.box1{
+    width: 40%;
+    /* background-color: blueviolet; */
+    height: 8em;
+    border: solid 1px rgb(196, 196, 196);;
+}
+
+.box1 p {
+    text-align: center;
+}
+
+.box2{
+    width: 40%;
+    /* background-color: blueviolet; */
+    height: 8em;
+    border: solid 1px rgb(196, 196, 196);
+}
+
+.box2 p{
+    text-align: center;
+}
+
+.tittle-list-interviews{
+    text-align: center;
+}

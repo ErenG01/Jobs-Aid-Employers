@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.generalcontainer{
+    /* background-color: blueviolet; */
+    margin: 1em auto;
+    width: 80%;
+    
+}
+
+.formsearch{
+    /* background-color: burlywood; */
+    background-color: rgb(241, 241, 241);
+    width: 70%;
+    height: 7em;
+    margin: 1em auto;
+    text-align: center;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formsearch form{
+    width: 70%;
+    display: flex;
+}
+
+.resultsearch{
+    /* background-color: rgb(79, 126, 126); */
+    background-color: rgb(241, 241, 241);
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    border-radius: 7px;
+    overflow: auto;
+    height: 35em;
+}
+
+
+.resultsearch .userscvsearched{
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 1em auto;
+    border: solid 1px rgb(163, 162, 162);
+    
+}
+

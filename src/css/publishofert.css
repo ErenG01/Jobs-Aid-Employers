@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.FormularioPublicarEmpleo{
+    background-color: blue;
+    width: 700px;
+    margin: auto;
+    padding: 1em 1em;
+    overflow: hidden;
+}
+
+.FormularioPublicarEmpleo .container1{
+    background-color: bisque;
+    padding: 1em 1em;
+    border: solid 1px ;
+    border-radius: 7px;
+    width: 600px;
+}
+
+.FormularioPublicarEmpleo .container2{
+    background-color: bisque;
+    padding: 1em 1em;
+    border: solid 1px ;
+    border-radius: 7px;
+    width: 600px;
+    
+}
+
+.FormularioPublicarEmpleo .container3{
+    background-color: bisque;
+    padding: 1em 1em;
+    border: solid 1px ;
+    border-radius: 7px;
+    width: 600px;
+   
+}
+
+.FormularioPublicarEmpleo .form-publicar{
+    background-color: brown;
+    padding: 1em 1em;
+    width: 2000px;
+    transition: margin-left 0.3s ease-in-out;
+}
+
+.FormularioPublicarEmpleo .form-publicar .boxgeneral-steps{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.bar-progress{
+    display: flex;
+    background-color: aqua;
+}
+
+.bar-progress .step{
+    position: relative;
+    text-align: center;
+    width: 100%;
+
+}
+
+.bar-progress .step p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    transition: 0.2s;
+}
+
+.bar-progress .step p.active{
+    color: #d43f8d;
+}
+
+.bar-progress .step .bullet{
+    position: relative;
+    height: 25px;
+    width: 25px;
+    border: 2px solid black;
+    display: inline-block;
+    border-radius: 50%;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    transition: 0.2s;
+}
+.bar-progress .step .bullet.active{
+    border-color: #d43f8d;
+    background: #d43f8d;
+}
+
+.bar-progress .step:last-child .bullet:before,
+.bar-progress .step:last-child .bullet:after{
+    display: none;
+}
+.bar-progress .step .bullet:before,
+.bar-progress .step .bullet:after{
+
+    position: absolute;
+    content: '';
+    bottom: 11px;
+    right: -135px;
+    height: 3px;
+    width: 130px;
+    background-color: #262626;
+}
+
+.bar-progress .step .bullet.active:after{
+    background: #d43f8d;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 0.3s linear forwards;
+}
+
+@keyframes animate {
+    100%{
+        transform: scaleX(1);
+    }
+
+}
+
+.bar-progress .step .bullet span{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bar-progress .step .bullet.active span{
+    display: none;
+}
+
+.bar-progress .step .check{
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    font-size: 15px;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.bar-progress .step .check.active{
+    display: block;
+    color: #fff;
+}
+
+
+
+
+
+

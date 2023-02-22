@@ -1,0 +1,55 @@
+.general-container-perfiluser{
+    /* background-color: blueviolet; */
+    width: 80%;
+    margin: 1em auto;
+    
+  }
+  
+  
+  .InfoPerfilBox{
+    background-color: rgb(240, 238, 238);
+      width: 50%;
+      margin: 5em auto;
+      text-align: center;
+      border-radius: 7px;
+      padding: 1em;
+  }
+  .imgPerfil{
+      width: 150px;
+      height: 150px;
+      border: solid 3px;
+      border-radius: 100%;
+  }
+
+  .EditDates-perfil{
+    background-color: blue;
+    margin: 2em auto;
+    width: 95%;
+    padding: 1em 1em;
+  }
+.box-img-perfil{
+    /* background-color: brown; */
+    border: solid 1px rgb(206, 206, 206);
+    padding-bottom: 1em;
+}
+
+.box-img-perfil-title{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.box-dates-perfil{
+    /* background-color: blue; */
+    margin: 1em auto;
+    border: solid 1px rgb(206, 206, 206);
+}
+
+.box-dates-perfil-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+  

@@ -1,0 +1,97 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+.navegate{
+    background-color: blue;
+    
+}
+a .LogoIMG{
+    width: 350px;
+    background-color: black;
+}
+.navegate ul{
+    display: flex;
+    background-color: brown;
+    width: 50%;
+    margin: auto;
+} */
+
+.navEmployeed{
+    background-color: black;   
+}
+.navegadoremployeed{
+    /* background-color: bisque; */
+    width: 95%;
+    margin: auto;
+    display: flex;
+    
+}
+.navEmployeed img{
+    width: 250px;
+    
+}
+.navEmployeed ul{
+    
+    
+    width: 100%;
+    align-items: center;
+    /*background-color: brown;*/
+    display: flex;
+    text-decoration: none;
+    align-items: flex-end;
+    margin: auto;
+}
+
+.navEmployeed ul a:hover{
+    
+    text-decoration: none;
+}
+.navEmployeed ul li{
+    text-align: center;
+    margin: auto;
+    list-style: none;
+    color: aliceblue;
+    
+}
+
+.navEmployeed ul a{
+    text-decoration: none;
+    
+    
+}
+.navEmployeed ul li:hover{
+    text-decoration: none;
+}
+/* .ulemployeed{
+    background-color: antiquewhite;
+    width: 70%;
+    margin: auto;
+} */
+.navegador{
+    width: 70%;
+    margin: auto;
+    background-color: aquamarine;
+}
+
+.UserLogged{
+    /* background-color: aquamarine; */
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    margin-inline-start: auto;
+    align-items: center;
+    margin-block: auto;
+}
+
+.UserLogged p{
+   border: solid 1px white;
+   border-radius: 7px;
+   color: white;
+   padding: 1em 1em;
+   margin: auto;
+   
+  
+}
+
+

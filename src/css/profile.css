@@ -1,0 +1,44 @@
+.PerfilComponent{
+  display: flex;
+}
+
+
+
+
+.general_container{
+  background-color: rgb(236, 236, 236);
+  display: grid;
+  
+  width: 15%;
+}
+.general_container .navUsuario{
+  background-color: rgb(48, 48, 48);
+   width: 100%;
+   height: 100vb;
+  
+   float: left;
+}
+.navUsuario ul{
+  width: 70%;
+  margin: auto;
+}
+
+.navUsuario ul li{
+  width: 90%;
+  list-style: none;
+  margin: 2em auto;
+  
+  
+  color: rgb(116, 116, 116);
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.navUsuario ul a{
+  color: rgb(116, 116, 116);
+  text-decoration: none;
+}
+.navUsuario ul li a:hover{
+  text-decoration: none;
+  color: white;
+}
+
